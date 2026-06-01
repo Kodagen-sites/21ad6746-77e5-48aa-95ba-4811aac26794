@@ -1,0 +1,17 @@
+{
+  "mode": "live-generate",
+  "brand": "sarahthebrand",
+  "archetype": "G",
+  "gRenderMode": "scrub-cinematic",
+  "palette": "deep-navy",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "role": "hero",
+      "durationSeconds": 8,
+      "description": "Cinematic dolly push-in across a sunlit cream-and-navy home workspace toward a glowing phone — faceless aspirational income lifestyle."
+    }
+  ],
+  "images": ["scene-1-start", "scene-1-end", "section-mockup", "section-lifestyle", "og-image"],
+  "estimatedCost": "~$1.75"
+}

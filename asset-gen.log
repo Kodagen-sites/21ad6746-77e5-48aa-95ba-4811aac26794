@@ -1,0 +1,22 @@
+
+> sarahthebrand@0.1.0 gen:all
+> npm run gen:images && npm run gen:videos && npm run gen:stitch && npm run gen:frames
+
+
+> sarahthebrand@0.1.0 gen:images
+> tsx scripts/generate-images.ts
+
+
+🎨 Image Generation (platform client → Vertex/Gemini)
+   Concurrency: 4
+
+Found 5; 0 already in manifest; 5 to generate.
+
+✓ [1/5] section-lifestyle  $0.13
+✓ [2/5] scene-1/end  $0.13
+✓ [3/5] scene-1/start  $0.13
+✓ [4/5] og-image  $0.13
+✗ section-mockup — HTTP 502: {"error":"generation failed on both providers","primary":"aistudio","primaryError":"{\"error\":{\"code\":429,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.st
+
+Done. Generated 4, skipped 0, failed 1.
+Spend: $0.52

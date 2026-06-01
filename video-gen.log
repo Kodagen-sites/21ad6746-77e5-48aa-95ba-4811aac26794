@@ -1,0 +1,16 @@
+
+> sarahthebrand@0.1.0 gen:videos
+> tsx scripts/generate-videos.ts
+
+
+🎬 Video Generation (platform client → Vertex/Veo)
+
+Found 1 scene (concurrency=3)
+
+→ scene-1 queued (vertex/veo-3.1-generate-001)
+  polling..........
+✓ scene-1  $1.45
+  ↓ raw/scene-1.mp4 (3909 KB)
+---
+Generated 1, skipped 0, failed 0.
+Spend: $1.45

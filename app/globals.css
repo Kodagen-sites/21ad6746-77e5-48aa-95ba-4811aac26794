@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #faf6ee;
+  --color-surface: #e8dfcf;
+  --color-accent: #1f3252;
+  --color-contrast: #0e1c33;
+  --color-cream: #faf6ee;
+  --color-navy: #1f3252;
+
+  /* ScrollCanvas loader + canvas letterbox bars — cinematic dark */
+  --bg-color: #0e1c33;
+  --fg-color: #faf6ee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-contrast);
+  font-family: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-lora), ui-serif, Georgia, serif;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: var(--color-cream);
+}
