@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lora, Nunito } from "next/font/google";
 import { siteConfig } from "@/content/site-config";
 import "./globals.css";
+import EditorBridge from "../components/__kodagen/EditorBridge";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -43,7 +44,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang={siteConfig.seo.htmlLang} className={`${lora.variable} ${nunito.variable}`}>
-      <body className="bg-bg font-body text-contrast antialiased">{children}</body>
+      <body className="bg-bg font-body text-contrast antialiased">{children}  <EditorBridge /></body>
     </html>
   );
 }

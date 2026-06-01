@@ -30,7 +30,7 @@ const FRAME_PATTERN =
 const lifestyle = resolveImage({
   src: images["section-lifestyle"],
   brandColor: siteConfig.brand.primary,
-  keyword: "lifestyle",
+  keyword: "Black woman phone lifestyle",
 });
 const mockup = resolveImage({
   src: images["section-mockup"] || images["scene-1-start"],
@@ -63,6 +63,7 @@ export default function HomePage() {
           textColor="#FAF6EE"
           accentColor="#E8DFCF"
           accentTextColor="#0E1C33"
+          scrim="linear-gradient(to top, rgba(6,8,14,0.88) 0%, rgba(6,8,14,0.62) 40%, rgba(6,8,14,0.25) 70%, transparent 88%)"
           chapters={[
             {
               at: 0,
@@ -246,7 +247,7 @@ export default function HomePage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={lifestyle}
-                alt="Earning calmly from a phone at home"
+                alt="Black woman earning calmly from a phone at home"
                 className="aspect-[4/5] w-full object-cover"
                 loading="lazy"
               />
@@ -306,9 +307,6 @@ export default function HomePage() {
               </figure>
             ))}
           </StaggerChildren>
-          <FadeUp delay={0.3}>
-            <p className="mt-8 text-sm italic text-contrast/45">{siteConfig.proof.note}</p>
-          </FadeUp>
         </div>
       </section>
 

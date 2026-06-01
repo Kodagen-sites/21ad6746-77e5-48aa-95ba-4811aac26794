@@ -1,16 +1,15 @@
 {
-  "bucket": "site-assets",
-  "projectId": "21ad6746-77e5-48aa-95ba-4811aac26794",
-  "ref": "",
   "images": {
-    "section-lifestyle": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/images/section-lifestyle.png",
+    "og-image": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/images/og-image.png",
     "scene-1-end": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/images/scene-1-end.png",
     "scene-1-start": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/images/scene-1-start.png",
-    "og-image": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/images/og-image.png"
+    "section-lifestyle": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/images/section-lifestyle.png"
   },
   "videos": {
-    "scene-1": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/videos/scene-1.mp4"
+    "scene-1": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/videos/scene-1.mp4",
+    "final": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/21ad6746-77e5-48aa-95ba-4811aac26794/videos/final.mp4"
   },
   "frames": {},
-  "updatedAt": "2026-06-01T22:30:15.894Z"
+  "bucket": "site-assets",
+  "projectId": "21ad6746-77e5-48aa-95ba-4811aac26794"
 }
